@@ -30,6 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					}}
 				></script>
 				<meta charSet="utf-8" />
+				<link rel="icon" href="/icon.png" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1"
