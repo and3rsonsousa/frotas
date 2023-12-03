@@ -20,16 +20,7 @@ export default function App() {
 	return (
 		<html lang="pt-br">
 			<head>
-				<meta charSet="utf-8" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-				<Meta />
-				<Links />
-			</head>
-			<body>
-				{/* <script
+				<script
 					dangerouslySetInnerHTML={{
 						__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,6 +30,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </body>`,
 					}}
 				></script>
+				<meta charSet="utf-8" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1"
+				/>
+				<Meta />
+				<Links />
+			</head>
+			<body>
 				<noscript>
 					<iframe
 						title="tagmanager"
@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						width="0"
 						style={{ display: "none", visibility: "hidden" }}
 					></iframe>
-				</noscript> */}
+				</noscript>
 				<Outlet />
 				<ScrollRestoration />
 				<Scripts />
